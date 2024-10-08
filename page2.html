@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Млинці</title>
+
+</head>
+
+
+<body>
+    <h1 class="recept_name">Млинці</h1>
+    <p class="img__"><img src="blin.jpg" alt="Блинчики"></p>
+    <h1>Інгредієнти</h1>
+    <ul class="text__list">
+        <li>1 склянка борошна</li>
+        <li>1,5 склянки молока</li>
+        <li>2 яйця</li>
+        <li>1 ст. л. цукру</li>
+        <li>1 щіпка солі</li>
+        <li>1 ст. л. рослинної олії (і трохи для смаження)</li>
+        <li>400 г творогу</li>
+        <li>1 яйце</li>
+        <li>3-4 ст. л. цукру (за смаком)</li>
+        <li>1 ч. л. ванільного цукру (за бажанням)</li>
+        <li>Сметана або йогурт для подачі (за бажанням)</li>
+    </ul>
+    <div>
+        <h1>Більше рецептів</h1>
+        <ul class="more__rec">
+            <li><a href="index.html">Рецепт Лазаньї</a></li>
+            <li><a href="page1.html">Рецепт Наполеона</a></li>
+            <li><a href="page3.html">Борщ український</a></li>
+        </ul>
+    </div>
+
+    <form id="forma">
+        <fieldset class="field">
+            <legend>Залишити відгук</legend>
+            <table>
+            <tr><p><td><label for="name">Ім'я</label></td><td></td><td><input type="text" id="name" placeholder="Напишіть своє ім'я" required="required"></td><td rowspan="4"><img src="zir.png" alt="Відгук"></td></p></tr>
+            <tr><p><td><label for="email">Електронна адреса</label></td><td></td><td><input type="email" id="email" autocomplete="off" required="required"></td></p></tr>
+            <tr><p><td><label for="visitDate">Дата народження</label></td><td></td><td><input type="date" id="visitDate" required="required"></td></p></tr>
+            <tr><p><td><label for="notLike">Знайшли помилку <br>в рецепті? Напишіть: </label></td><td></td><td><textarea id="nitLike" spellcheck="false"></textarea></td></p></tr>
+            </table>
+            </fieldset>
+
+    </form>
+</body>
+
+</html>

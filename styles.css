@@ -1,0 +1,92 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(background_body.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+
+.img__{
+    text-align: center;
+}
+
+.img__ img{
+    height: 300px;
+    width: 400px;
+}
+
+
+ul{
+    margin-left: 32.5%;
+    list-style-type: square;
+}
+
+.more__rec a{
+    color: rgb(255, 97, 5);
+    text-decoration: none;
+    font-size: 22px;
+}
+
+.more__rec a:hover{
+color: rgb(255, 255, 255);
+background: rgb(7, 167, 179);
+transition: 1s all;
+}
+
+.text__list{
+    width: 500px;
+    font-size: 18px;
+    color: white;
+}
+
+.text__list li{
+padding: 5px;
+}
+
+#forma{
+    width: 715px;
+    margin: 0 auto;
+    font-family: Bahnschrift Condensed;
+    font-size: 18px;
+    }
+    #forma legend{
+    color: #ff0000;
+    text-align: center;
+    font-size: 22px;
+    background: white;
+    padding: 6px 24px;
+    border-radius: 18px;
+    }
+    
+    .field{
+    background: #35c9bd;
+    border: 2px solid #ff0000;
+    border-radius: 20px;
+    }
+
+    .recept_name{
+        color: white;
+        background: #d85b08ec;
+        border-radius: 7px;
+        padding: 6px 7px;
+        width: 300px;
+        margin-left: 42%;
+        margin-top: 150px;
+    }
+
+    header{
+        background-color: rgb(255, 255, 255);
+        /* opacity: 0.4; */
+        width: 1600px;
+        height: 100px;
+        position: fixed;
+        top: 2%;
+        left: 8%;
+        border-radius: 20px;
+        z-index: 1000;
+
+    }
+    

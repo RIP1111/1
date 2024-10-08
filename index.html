@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Лазанья</title>
+
+</head>
+
+
+<body>
+    <header>
+        <ul>
+            <li><img src="ikon.png" alt="Лазанья" width="80px" height="80px"></li>
+            <li>
+                <ul>
+                    <li><a href="">Головна</a></li>
+                    <li><a href="">Рецепти</a></li>
+                    <li><a href="">Галерея</a></li>
+                </ul>
+            </li>
+        </ul>
+
+        
+    </header>
+    <h1 class="recept_name">Лазанья</h1>
+    <p class="img__"><img src="laz.jpg" alt="Лазанья"></p>
+    <h1>Інгредієнти</h1>
+
+    <ul class="text__list">
+        <li>Листя лазаньї (можна використовувати свіжі або сушені)</li>
+        <li>Фарш (яловичина, свинина чи курятина)</li>
+        <li>Цибуля (1-2 шт.)</li>
+        <li>Часник (2-3 зубчики)</li>
+        <li>Помідори (консервовані або свіжі)</li>
+        <li>Томати паста (за бажанням)</li>
+        <li>Спеції (сіль, перець, базилік, орегано)</li>
+        <li>Молоко (500 мл)</li>
+        <li>Борошно (50 г)</li>
+        <li>Масло (50 г)</li>
+        <li>Сіль і мускатний горіх (зі смаком)</li>
+        <li>Тертий сир (моцарела, пармезан або інший)</li>
+        <li>Оливкова олія</li>
+        <li>Овочі (наприклад, шпинат або гриби)</li>
+    </ul>
+
+
+
+    <div>
+        <h1>Більше рецептів</h1>
+        <ul class="more__rec">
+            <li><a href="page1.html">Рецепт Наполеона</a></li>
+            <li><a href="page2.html">Рецепт Млинці</a></li>
+            <li><a href="page3.html">Рецепт  Борщ український</a></li>
+        </ul>
+    </div>
+
+    <form id="forma">
+        <fieldset class="field">
+            <legend>Залишити відгук</legend>
+            <table>
+            <tr><p><td><label for="name">Ім'я</label></td><td></td><td><input type="text" id="name" placeholder="Напишіть своє ім'я" required="required"></td><td rowspan="4"><img src="zir.png" alt="Відгук"></td></p></tr>
+            <tr><p><td><label for="email">Електронна адреса</label></td><td></td><td><input type="email" id="email" autocomplete="off" required="required"></td></p></tr>
+            <tr><p><td><label for="visitDate">Дата народження</label></td><td></td><td><input type="date" id="visitDate" required="required"></td></p></tr>
+            <tr><p><td><label for="notLike">Знайшли помилку <br>в рецепті? Напишіть: </label></td><td></td><td><textarea id="nitLike" spellcheck="false"></textarea></td></p></tr>
+            </table>
+            </fieldset>
+
+    </form>
+</body>
+
+</html>
