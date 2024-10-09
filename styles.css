@@ -90,3 +90,58 @@ padding: 5px;
 
     }
     
+    .hedarlist2 {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hedarlist2 li {
+        margin:35px 20px 0 20px;
+        text-align: center;
+    }
+
+    .blackbtn{
+        text-decoration: none;
+        color: white;   
+        background: black;
+        font-size: 30px;
+        border-radius: 20px;
+        padding: 10px 20px;
+    }
+
+
+    .hedarlist1 {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        
+    }
+
+    .hedarlist1 .list1li {
+        margin: 5px 5px 0 50px;
+    }
+
+    .orangebtn {
+        background: #d85b08ec;
+        border-radius: 20px;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: white;   
+        font-size: 30px;
+    }
+
+    .hedarlist1 .list2li{
+        margin: 5px 50px 0 10px;
+        font-size: 62px;
+        font-weight: bolder;
+        font-family: 'Bauhaus', sans-serif;
+    }
+
+    @font-face {
+        font-family: 'Bauhaus';
+        src: url('bauhaus93.TTF') format('truetype'); 
+    }
